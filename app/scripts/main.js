@@ -3,6 +3,6 @@
 
 $(function () {
   var s = skrollr.init({
-    skrollrBody: 'body'
+    skrollrBody: 'skrollr-body'
   });
 });
