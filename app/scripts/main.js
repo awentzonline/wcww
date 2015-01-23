@@ -3,7 +3,8 @@
 
 $(function () {
   window.skrollr.init({
-    skrollrBody: 'skrollr-body'
+    skrollrBody: 'skrollr-body',
+    forceHeight: false
   });
 });
 
