@@ -11,6 +11,10 @@ body {
   padding-bottom: 20px;
 }
 
+#businessman-hole, #usa-hole {
+  overflow: hidden;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .footer {
@@ -48,6 +52,7 @@ body {
   color: white;
   border-bottom: 1px solid #e5e5e5;
   background-image: url("/images/bigwig.jpg");
+  margin-bottom: 16px;
 }
 
 .jumbotron .btn {
@@ -57,11 +62,11 @@ body {
 
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+  margin: 16px 0;
 }
 
 .marketing p + h4 {
-  margin-top: 28px;
+  margin-top: 16px;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -80,7 +85,7 @@ body {
 
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */

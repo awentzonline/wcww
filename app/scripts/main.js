@@ -1,8 +1,10 @@
+(function (window) {
 'use strict';
 
-
 $(function () {
-  var s = skrollr.init({
+  window.skrollr.init({
     skrollrBody: 'skrollr-body'
   });
 });
+
+}(window));
